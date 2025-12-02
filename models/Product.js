@@ -9,7 +9,7 @@ const productSchema = new mongoose.Schema(
     category: {
       type: String,
       required: true,
-      enum: ["Pizzas", "Lanches", "Bebidas", "Sobremesas", "Porções", "Esfihas", "Drinks"], 
+      enum: ["Pizzas", "Lanches", "Bebidas", "Sobremesas", "Porções","Drinks"], 
     },
     quantity: { type: Number, required: true, min: 0 },
   },
